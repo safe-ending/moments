@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.yt.moment.widgets.DemoToolbar
+            android:id="@+id/zhigeToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height">
+
+        </com.yt.moment.widgets.DemoToolbar>
+
+        <EditText
+            android:id="@+id/etContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="这一刻的想法…"
+            android:lineSpacingExtra="2dp"
+            android:maxLength="200"
+            android:minHeight="100dp"
+            android:minLines="5"
+            android:padding="16dp"
+            android:text=""
+            android:textColor="@color/color_69"
+            android:textSize="16sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <com.yt.moment.widgets.imagewatcher.ImageWatcher
+        android:id="@+id/watcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+</FrameLayout>

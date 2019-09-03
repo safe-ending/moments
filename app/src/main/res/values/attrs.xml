@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DemoToolbar">
+        <attr name="toolbar_title" format="string" />
+        <attr name="toolbar_text_right" format="string" />
+    </declare-styleable>
+
+</resources>
