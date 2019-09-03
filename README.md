@@ -6,3 +6,5 @@
 <p>用到了luban压缩图片</p>
 <p>PictureSelector选择图片</p>
 <p>ImageWatcher查看缩放大图</p>
+![image](https://github.com/safe-ending/moments/blob/master/app/src/1.gif)
+![image](https://github.com/safe-ending/moments/blob/master/app/src/2.gif)
