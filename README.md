@@ -13,3 +13,7 @@
 <p>效果</p>
 
 ![image](https://github.com/safe-ending/moments/blob/master/app/src/2.gif)
+
+
+<p>可以通过fir下载看效果</p>
+<p><a href="https://fir.im/pzt9" target="_blank">https://fir.im/pzt9</a></p>
